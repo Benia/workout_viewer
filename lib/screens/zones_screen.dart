@@ -77,7 +77,7 @@ class _ZonesScreenState extends State<ZonesScreen> {
           _field('Z4 до (выше = Z5)', z4),
           const SizedBox(height: 12),
           Text(
-            'Z1 < ${z1.text.isEmpty ? "…"} : ${z1.text}\n'
+            'Z1 < ${z1.text.isEmpty ? "…" : z1.text}\n'
             'Z2 ${z1.text}–${z2.text}\n'
             'Z3 ${z2.text}–${z3.text}\n'
             'Z4 ${z3.text}–${z4.text}\n'
